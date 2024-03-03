@@ -1,0 +1,17 @@
+h1,
+h2 {
+    color: red;
+    width: 300px;
+    border: 1px solid black;
+}
+
+#smalltext{
+    font-size: 10px;
+}
+
+.blueborder{
+    color: purple;
+    border: 1px solid blue;
+    width: 130px;
+    text-decoration: underline;
+}
