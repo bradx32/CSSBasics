@@ -15,3 +15,82 @@ h2 {
     width: 130px;
     text-decoration: underline;
 }
+
+
+
+/* CSS BASICS Part 2 */
+/* change the box-sizing to be default size */
+div{
+    box-sizing: border-box;
+}
+
+/* no margin, padding, or border */
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+}
+
+/* 20px padding reduces the size of the content area */
+.box2 {
+    height: 100px;
+    width: 100px;
+    padding: 33px;
+    background-color: silver;
+}
+
+/* 20px margin adds space around the box but doesn't change the size of the box */
+.box3 {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: orange;
+}
+
+/* 20px border reduces the size of the content area */
+.box4 {
+    color: white;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 20px solid black;
+}
+
+.box {
+    border: 1px solid gold;
+    height: 200px;
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+.box5 {
+    overflow: hidden;
+}
+
+.box6 {
+    overflow: scroll;
+}
+
+/* reset */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* Pseudo-Classes */
+button:hover {
+    color: white;
+    background-color:  grey;
+}
+
+/* select all elements whose numeric position in a series of siblings is even */
+li:nth-child(even) {
+    color: blue;
+}
+
+/* Colours a link different from clicked/unclicked */
+a:visited {
+    color:darkorange;
+    }
+    a:hover {
+        color: steelblue;
+    }
